@@ -5,6 +5,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import cc.alfhein.commands.BalanceCMD;
+
 public class Main extends JavaPlugin {
 	
 	public static Main instance;
@@ -19,6 +21,9 @@ public class Main extends JavaPlugin {
 		
 		// Load Commands
 		
+		getCommand("balance").setExecutor(new BalanceCMD());
+		
+		// Enabled
 		getLogger().info("Enabled!");
 		
 		saveDefaultConfig();
