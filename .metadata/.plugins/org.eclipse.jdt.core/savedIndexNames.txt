@@ -16,4 +16,3 @@ INDEX VERSION 1.130+F:\Alfhein\Alfhein\.metadata\.plugins\org.eclipse.jdt.core
 592600685.index
 1055679481.index
 2692035760.index
-2217198271.index
