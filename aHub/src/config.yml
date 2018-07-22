@@ -1,0 +1,8 @@
+Multiplier: 1.5
+Height: 1
+UseXPBar: true
+TakeFallDamage: false
+
+Worlds:
+  - world
+  - Example
